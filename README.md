@@ -63,6 +63,6 @@ X_train = pd.read_csv(ROOT / "data" / "x_train.csv")
 | `01_logistic_regression.ipynb` | Logistic regression | Linear decision boundary, calibrated probabilities |
 | `02_random_forest.ipynb` | Random forest | Nonlinear interactions, feature importance |
 | `03_knn.ipynb` | K-nearest neighbors | Distance-based voting; uses the same scaled features as other models |
-| `04_decision_tree.ipynb` | Decision tree | Interpretable splits, handles nonlinear patterns, no scaling required |
+| `04_decision_tree.ipynb` | Decision tree | Interpretable splits, handles nonlinear patterns |
 
 These notebooks report metrics such as accuracy, precision, recall, F1, ROC-AUC, and confusion matrices where implemented.
